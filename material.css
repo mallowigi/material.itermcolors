@@ -1,0 +1,39 @@
+:root {
+    --bg: #263238;
+    --lbg: #32424A;
+    --dbg: #1E272C;
+    --contrast: #1E272c;
+    --border: #2A373E;
+    --excl:#2E3C43;
+    --button: #2E3C43;
+    --txt: #B0BEC5;
+    --fg: #b0bec5;
+    --primary: #607D8B;
+    --selBg: #314549;
+    --selFg: #fff;
+    --disabled: #415967;
+    --hl: #425B67;
+    --ttl: #009688;
+    --accent: #009688;
+    --error: #ff5370;
+    --tag: #f07178;
+    --number: #f78c6c;
+    --attribute: #FFCB6B;
+    --string: #C3E88D;
+    --operator: #89ddff;
+    --link: #80CBC4;
+    --function: #82aaff;
+    --keyword: #c792ea;
+    --success: #c3e88d;
+    --variable: #eeffe3;
+    --comment: #546E7A;
+
+    --font: 'Open Sans', 'Calibri', Tahoma, Helvetica, Arial, sans-serif;
+    --mono: 'Operator Mono', 'Menlo', 'Consolas', 'Source Code Pro', monospace;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font);
+}
